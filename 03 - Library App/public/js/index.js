@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
             fetch('/books', {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json"
-                },
+                    "Content-Type": "application/json",
+                  },
                 body: JSON.stringify({
                     title: title,
                     author: author,

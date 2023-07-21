@@ -10,7 +10,7 @@ import router from './src/routes/router.js';
 
 /***
  *  Setup and Run Express App
- */
+ */ 
 async function startServer() {
     const __dirname = dirname(fileURLToPath(import.meta.url)); // directory URL
     const app = express();
